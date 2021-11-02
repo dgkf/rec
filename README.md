@@ -24,6 +24,7 @@ indicating that you're in a recording session.
 ```r
 rec()
 print(1:3)
+# [1] 1 2 3
 rec()  # stop recording
 
 play()
