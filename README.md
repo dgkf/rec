@@ -2,15 +2,15 @@
 
 Record and play back your R
 
+`rec` captures code evaluation and output, trying to preserve the R objects, 
+console output and conditions (messages, warnings and errors) emitted during 
+evaluation.
+
 ## Quick Start
 
-`rec` is centrally a tool for capturing expression evaluation, trying to
-preserve the R object structures emitted during evaluation, including conditions
-(message, warning and error objects), console output and output objects.
-
-`rec` operates in one of two ways, either recording an expression running in the
-background, or recording the top level interactive console. In both, cases, you
-can use the singular interface, `rec()`. Once you've recorded evaluation, you
+`rec` operates in one of two ways, either recording an expression's evaluation, 
+or recording the top level interactive console. In both, cases, you can use 
+the singular interface, `rec()`. Once you've recorded evaluation, you
 can also play it back!
 
 [![asciicast](https://asciinema.org/a/MvqJkDVvH4gTBz618RCU58l0m.svg)](https://asciinema.org/a/MvqJkDVvH4gTBz618RCU58l0m)
