@@ -2,6 +2,10 @@
 
 Record and play back your R
 
+> :warning: the features here are almost entirely covered by
+> [asciicast](https://github.com/r-lib/asciicast), a more mature
+> and better maintained project :warning:
+
 `rec` captures code evaluation and output, trying to preserve the R objects, 
 console output and conditions (messages, warnings and errors) emitted during 
 evaluation.
